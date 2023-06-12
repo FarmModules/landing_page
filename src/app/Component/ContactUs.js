@@ -1,6 +1,6 @@
 const ContactUs = () => {
     return (
-        <div className="container">
+        <div className="container" id="Contact">
             <div className="section-title-area">
                 <h2 className="section-title">Let's build farm of your dreams together</h2>											</div>
             <div className="row">
