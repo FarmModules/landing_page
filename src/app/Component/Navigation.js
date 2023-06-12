@@ -1,82 +1,59 @@
-'use client';
-import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
 const Navigation = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
-    <nav className="fixed-top bg-white shadow-sm">
-      <div className="container mx-auto flex items-center justify-between">
-        <div className="flex items-center text-xl font-bold text-gray-800">
-          <img
-            src="https://www.farmmodules.tech/wp-content/uploads/2021/09/cropped-FMlogo.png"
-            alt=""
-            className="h-10 mr-2"
-          />
-          <button
-            className="text-gray-600 focus:outline-none md:hidden"
-            onClick={toggleMenu}
-            aria-label="Toggle menu"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              {isOpen ? (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              ) : (
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              )}
-            </svg>
-          </button>
-        </div>
-        <ul
-          className={`md:flex flex-col md:flex-row md:items-center md:justify-content-center mt-4 ${
-            isOpen ? 'block' : 'hidden'
-          }`}
+    <nav className="navbar navbar-expand-lg bg-white navbar-light fixed-top border border-primary" data-spy="affix" data-offset-top="0">
+      <div className="container">
+        <Link href="/" passHref>
+          <div className="navbar-brand">
+            <img
+              src="https://www.farmmodules.tech/wp-content/uploads/2021/09/cropped-FMlogo.png"
+              alt=""
+              className="h-10 mr-2"
+            />
+          </div>
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <li className="nav-item">
-            <Link href="#Solutions" className="nav-link px-4 text-gray-600 text-center">
-              Solutions
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="#About" className="nav-link px-4 text-gray-600 text-center">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse border border-primary" id="navbarSupportedContent">
+          <ul className="navbar-nav ml-auto align-items-center">
+            <li className="nav-item">
+              <Link href="/" >
+                Solutions
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/">
               About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="#Team" className="nav-link px-4 text-gray-600 text-center">
-              Team
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="#Contact" className="nav-link px-4 text-gray-600 text-center">
-              Contact
-            </Link>
-          </li>
-        </ul>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/Team">
+                Team
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/Contact">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );
 };
 
 export default Navigation;
+
