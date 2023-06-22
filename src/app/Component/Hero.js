@@ -1,9 +1,9 @@
 'use client';
 import { useState } from "react";
-import { items } from "/home/aron/Desktop/landing_page/public/data/item.json";
+import { items } from "../../../public/data/item.json";
 import { Carousel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "/home/aron/Desktop/landing_page/Bootstrap.module.css";
+import styles from "../../../Bootstrap.module.css";
 
 export default function Hero() {
   const { bootstrap } = items;
@@ -51,4 +51,4 @@ export default function Hero() {
       ))}
     </Carousel>
   );
-}
+};

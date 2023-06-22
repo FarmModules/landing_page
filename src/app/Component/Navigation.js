@@ -1,7 +1,30 @@
+'use client';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 const Navigation = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 767);
+    };
+
+    handleResize(); // Set initial state
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const handleLinkClick = () => {
+    if (isMobile) {
+      // Close the navigation menu when a link is clicked
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      navbarCollapse.classList.remove('show');
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-lg bg-white navbar-light fixed-top border border-primary" data-spy="affix" data-offset-top="0">
       <div className="container">
@@ -14,38 +37,48 @@ const Navigation = () => {
             />
           </div>
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        {isMobile ? (
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        ) : null}
 
-        <div className="collapse navbar-collapse border border-primary" id="navbarSupportedContent">
+        <div className={isMobile ? 'navbar-collapse collapse' : 'navbar-collapse'} id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto align-items-center">
             <li className="nav-item">
-              <Link href="/" >
-                Solutions
+              <Link href="/" passHref>
+                <div className="nav-link" onClick={handleLinkClick}>
+                  Solutions
+                </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/">
-              About
+              <Link href="/" passHref>
+                <div className="nav-link" onClick={handleLinkClick}>
+                  About
+                </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/Team">
-                Team
+              <Link href="/Team" passHref>
+                <div className="nav-link" onClick={handleLinkClick}>
+                  Team
+                </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="/Contact">
-                Contact
+              <Link href="/Contact" passHref>
+                <div className="nav-link" onClick={handleLinkClick}>
+                  Contact
+                </div>
               </Link>
             </li>
           </ul>
@@ -56,4 +89,3 @@ const Navigation = () => {
 };
 
 export default Navigation;
-
