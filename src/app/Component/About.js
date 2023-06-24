@@ -1,7 +1,7 @@
 const About = () => {
     return (
-        <div className="section-title-area">
-            <h2 className="section-title">about</h2>
+        <div className="section-title-area" id="About">
+            <h2 className="section-title">About</h2>
             <div className="section-desc">
                 <div >
                     <div >We are a team of farmers, engineers and entrepreneurs, trying to make aquaponics more accessible&nbsp;🐟&nbsp;💚&nbsp;🌱<br/>
