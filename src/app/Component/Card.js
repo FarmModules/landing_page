@@ -1,7 +1,7 @@
 const Card = () => {
     return (
-      <div id="Solution" className="flex flex-col items-center">
-        <h1 className="text-center">Solutions</h1>
+      <div id="Solution" className="flex flex-col items-center p-8">
+        <h2 className="text-center">Solutions</h2>
         <div className="flex flex-wrap justify-center gap-10">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
             <div className="feature-item">
