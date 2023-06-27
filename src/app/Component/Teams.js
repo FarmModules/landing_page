@@ -114,9 +114,9 @@ const Team = () => {
               style={{ textDecoration: "none" }}
             >
               <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2023/02/IMG_20221204_121330_877-480x300.jpg"
+                src="/WhatsApp_1_.jpg"
                 alt=""
-                width="480"
+                width="350"
                 height="300"
               />
             </Link>
