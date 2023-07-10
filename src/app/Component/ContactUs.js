@@ -22,7 +22,7 @@ const ContactUs = () => {
         <div className="container mx-auto" id="Contact">
           <div className="section-title-area">
             <h2 className="section-title text-center">
-              Let's build the farm of your dreams together
+              Let&lsquo;s build the farm of your dreams together
             </h2>
           </div>
           <div className="flex flex-wrap justify-center items-center">
