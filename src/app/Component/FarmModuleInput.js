@@ -30,7 +30,7 @@ const FarmModuleInput = () => {
   return (
     <div className="wrapper flex flex-col justify-center items-center" id="templateContainer">
       <div className="masthead">
-        <img
+        <Image
           src="https://mcusercontent.com/b05e94f9647da65b3c325161c/images/24941f77-aa82-39ea-582c-682a2ecb4ce5.png"
           alt=""
           border="0"
