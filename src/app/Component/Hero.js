@@ -73,11 +73,6 @@ export default function Hero() {
         <Modal.Body>
           <FarmModuleInput />
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={closeModal}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </>
   );
