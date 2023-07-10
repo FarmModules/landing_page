@@ -6,12 +6,15 @@ const nextConfig = {
   basePath: '/github-pages',
 
   // Enable static HTML export
+  target: 'serverless',
   output: 'export',
-  }
-// next.config.js
-module.exports = {
+
+  // Configure images domain
   images: {
     domains: ['www.farmmodules.tech'],
   },
 };
+
+module.exports = nextConfig;
+
 
