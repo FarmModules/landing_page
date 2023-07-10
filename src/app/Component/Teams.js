@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-
+import aronImage from '../../../public/WhatsApp_1_.jpg';
 const Team = () => {
   return (
     <div className="container flex flex-col items-center p-8" id="Team">
@@ -40,8 +40,9 @@ const Team = () => {
               <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
                 alt=""
-                width="351"
-                height="263"
+                width="381"
+                height="163"
+                className='p-8'
               />
             </Link>
           </div>
@@ -115,7 +116,7 @@ const Team = () => {
               style={{ textDecoration: "none" }}
             >
               <Image
-                src="/WhatsApp_1_.jpg"
+                src={aronImage}
                 alt=""
                 width="350"
                 height="300"

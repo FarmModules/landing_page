@@ -36,7 +36,12 @@ const Hero = () => {
           <Carousel.Item key={item.id} className={styles.itemP} interval={2000}>
             <div
               className={styles.backgroundImage}
-              style={{ backgroundImage: `url(${item.imageUrl})` }}
+              style={{ 
+              backgroundImage: `url(${item.imageUrl})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+              
             />
             <Carousel.Caption className={`${styles.caption} ${styles.responsiveCaption}`}>
               <div className={`${styles.container} ${styles.responsiveContainer}`}>
