@@ -13,6 +13,8 @@ const Card = () => {
                   <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
                     alt="FarmModules.tech AQP Towers system"
+                    width="1432"
+                    height="236"
                   />
                 </span>
               </div>
@@ -52,6 +54,8 @@ const Card = () => {
                   <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
                     alt=""
+                    width="1432"
+                    height="236"
                   />
                 </span>
               </div>
@@ -97,6 +101,8 @@ const Card = () => {
                   <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
                     alt="Turn-key Aquaponics Towers Farm"
+                    width="1432"
+                    height="236"
                   />
                 </span>
               </div>
