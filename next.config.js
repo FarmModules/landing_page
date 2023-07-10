@@ -4,12 +4,9 @@ const nextConfig = {
 
   // Add basePath
   basePath: '/github-pages',
+
+  // Enable static HTML export
+  output: 'export',
 };
 
-module.exports = {
-  ...nextConfig,
-  images: {
-    domains: ['example.com'], // Replace example.com with your actual domain(s)
-  },
-};
-
+module.exports = nextConfig;
