@@ -35,6 +35,8 @@ const Navigation = () => {
               src="https://www.farmmodules.tech/wp-content/uploads/2021/09/cropped-FMlogo.png"
               alt=""
               className="h-10 mr-2"
+              width="250"
+              height="70"
             />
           </div>
         </Link>

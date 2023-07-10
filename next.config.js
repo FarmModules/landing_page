@@ -6,5 +6,10 @@ const nextConfig = {
     basePath: '/github-pages',
   
   }
+// next.config.js
+module.exports = {
+  images: {
+    domains: ['www.farmmodules.tech'],
+  },
+};
 
-module.exports = nextConfig
