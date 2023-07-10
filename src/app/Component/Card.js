@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Card = () => {
   return (
     <div id="Solution">
@@ -8,7 +10,7 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <img
+                  <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
                     alt="FarmModules.tech AQP Towers system"
                   />
@@ -47,7 +49,7 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <img
+                  <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
                     alt=""
                   />
@@ -92,7 +94,7 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <img
+                  <Image
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
                     alt="Turn-key Aquaponics Towers Farm"
                   />
