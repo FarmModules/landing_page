@@ -7,7 +7,7 @@ import styles from "../../../Bootstrap.module.css";
 import FarmModuleInput from "./FarmModuleInput";
 import Link from "next/link";
 
-export default function Hero() {
+const Hero = () => {
   const { bootstrap } = items;
   const [index, setIndex] = useState(0);
   const [showModal, setShowModal] = useState(false);
@@ -78,3 +78,4 @@ export default function Hero() {
   );
 }
 
+export default Hero;
