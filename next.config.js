@@ -1,15 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
-  
-   // Add basePath
-    basePath: '/github-pages',
-  
-  }
-// next.config.js
+  reactStrictMode: true,
+
+  // Add basePath
+  basePath: '/github-pages',
+};
+
 module.exports = {
+  ...nextConfig,
   images: {
-    domains: ['www.farmmodules.tech'],
+    domains: ['example.com'], // Replace example.com with your actual domain(s)
   },
 };
 
