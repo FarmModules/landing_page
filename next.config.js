@@ -6,7 +6,6 @@ const nextConfig = {
   basePath: '/github-pages',
 
   // Enable static HTML export
-  target: 'serverless',
   output: 'export',
 
   // Configure images domain
@@ -16,5 +15,7 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+
 
 
