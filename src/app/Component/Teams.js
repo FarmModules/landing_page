@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Team = () => {
   return (
@@ -13,7 +14,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/martin-kubajda/"
               style={{ textDecoration: "none" }}
             >
-              <img
+              <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
                 alt="Martin Kubajda, CEO"
                 width="400"
@@ -36,7 +37,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/filip-fajkus-a56295176/"
               style={{ textDecoration: "none" }} className="text-gray-500"
             >
-              <img
+              <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
                 alt=""
                 width="351"
@@ -62,7 +63,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/jirka-borovec/"
               style={{ textDecoration: "none" }}
             >
-              <img
+              <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2021/11/jirka-367x300.jpg"
                 alt=""
                 width="367"
@@ -87,7 +88,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/"
               style={{ textDecoration: "none" }}
             >
-              <img
+              <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2022/01/71179342_3323728047639090_2381459052375834624_n1-480x300.jpg"
                 alt=""
                 width="480"
@@ -113,7 +114,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/aron-abraham/"
               style={{ textDecoration: "none" }}
             >
-              <img
+              <Image
                 src="/WhatsApp_1_.jpg"
                 alt=""
                 width="350"
@@ -139,7 +140,7 @@ const Team = () => {
               href="https://www.linkedin.com/in/marek-otypka/"
               style={{ textDecoration: "none" }}
             >
-              <img
+              <Image
                 src="https://www.farmmodules.tech/wp-content/uploads/2022/07/175563858_10208346844385147_8622580602411343963_n-e1661945890827-420x300.jpg"
                 alt=""
                 width="370"

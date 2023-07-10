@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navigation = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -30,7 +31,7 @@ const Navigation = () => {
       <div className="container">
         <Link href="/" passHref>
           <div className="navbar-brand">
-            <img
+            <Image
               src="https://www.farmmodules.tech/wp-content/uploads/2021/09/cropped-FMlogo.png"
               alt=""
               className="h-10 mr-2"
