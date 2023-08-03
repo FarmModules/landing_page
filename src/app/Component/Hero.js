@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../../../Bootstrap.module.css";
 import FarmModuleInput from "./FarmModuleInput";
 import Link from "next/link";
+import Image from "next/image.js";
 
 const Hero = () => {
   const { bootstrap } = items;
