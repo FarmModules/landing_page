@@ -1,11 +1,12 @@
-'use client';
+"use client";
 import { useState } from "react";
-import items  from "./item.js";
+import items from "./item.js";
 import { Carousel, Modal, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../../../Bootstrap.module.css";
 import FarmModuleInput from "./FarmModuleInput";
 import Link from "next/link";
+import Image from "next/image.js";
 
 const Hero = () => {
   const { bootstrap } = items;
@@ -34,19 +35,28 @@ const Hero = () => {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         {bootstrap.map((item) => (
           <Carousel.Item key={item.id} className={styles.itemP} interval={2000}>
-            <div
-              className={styles.backgroundImage}
-              style={{ 
-              backgroundImage: `url(${item.imageUrl})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }}
-              
-            />
-            <Carousel.Caption className={`${styles.caption} ${styles.responsiveCaption}`}>
-              <div className={`${styles.container} ${styles.responsiveContainer}`}>
-                <h3 className={`${styles.heading} ${styles.responsiveHeading}`}>For More Accessible</h3>
-                <h4 className={`${styles.subheading} ${styles.responsiveSubheading}`}>{item.title}</h4>
+            <div className={styles.backgroundImage}>
+              <img
+                src={item.imageUrl}
+                alt="Carousel Image"
+                width="100%"
+                height="100vh"
+              />
+            </div>
+            <Carousel.Caption
+              className={`${styles.caption} ${styles.responsiveCaption}`}
+            >
+              <div
+                className={`${styles.container} ${styles.responsiveContainer}`}
+              >
+                <h3 className={`${styles.heading} ${styles.responsiveHeading}`}>
+                  For More Accessible
+                </h3>
+                <h4
+                  className={`${styles.subheading} ${styles.responsiveSubheading}`}
+                >
+                  {item.title}
+                </h4>
                 <p className="p-4">Aquaponic IoT and turnkey farm solutions</p>
                 <div className="d-flex flex-row gap-5 mx-auto w-100 justify-content-center ">
                   <button
@@ -56,7 +66,11 @@ const Hero = () => {
                   >
                     GET FREE CONSULTATION
                   </button>
-                  <Link href="#Solution" passHref style={{ textDecoration: 'none' }}>
+                  <Link
+                    href="#Solution"
+                    passHref
+                    style={{ textDecoration: "none" }}
+                  >
                     <button
                       className={`btn btn-lg border-white rounded bg-transparent ${styles.responsiveButton}`}
                       style={buttonStyle}
@@ -81,6 +95,6 @@ const Hero = () => {
       </Modal>
     </>
   );
-}
+};
 
 export default Hero;

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import 'tailwindcss/tailwind.css';
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
         <div>
           <h2 className="text-center">What is Aquaponics?</h2>
           <p>
-            <Image
+            <img
               src="https://www.farmmodules.tech/wp-content/uploads/2022/02/272614969_277386991154127_1490115604891205562_n-1.png"
               alt="Aquaponics Cycle Concept"
               width={507}
