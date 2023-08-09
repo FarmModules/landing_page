@@ -36,12 +36,13 @@ const Hero = () => {
         {bootstrap.map((item) => (
           <Carousel.Item key={item.id} className={styles.itemP} interval={2000}>
             <div className={styles.backgroundImage}>
+
               <img
                 src={item.imageUrl}
                 alt="Carousel Image"
                 width="100%"
                 height="100vh"
-              />
+
             </div>
             <Carousel.Caption
               className={`${styles.caption} ${styles.responsiveCaption}`}
