@@ -1,4 +1,4 @@
-import Image from "next/image";
+import 'tailwindcss/tailwind.css';
 
 const Card = () => {
   return (
@@ -10,11 +10,11 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <Image
+                  <img
                     src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
                     alt="FarmModules.tech AQP Towers system"
-                    width="1432"
-                    height="236"
+                    width="1532"
+                    height="436"
                   />
                 </span>
               </div>
@@ -51,7 +51,7 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <Image
+                  <img
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
                     alt=""
                     width="1432"
@@ -98,7 +98,7 @@ const Card = () => {
             <div className="feature-item">
               <div className="feature-media">
                 <span className="icon-image">
-                  <Image
+                  <img
                     src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
                     alt="Turn-key Aquaponics Towers Farm"
                     width="1432"

@@ -3,19 +3,17 @@ const nextConfig = {
   reactStrictMode: true,
 
   // Add basePath
-  basePath: '/github-pages',
+  // basePath: '/github-pages',
 
   // Enable static HTML export
   output: 'export',
 
   // Configure images domain
-  images: {
-    domains: ['www.farmmodules.tech'],
-  },
+    // Configure images domain
+    images: {
+      
+    },
+  css: ['@styles/main.css'],
 };
 
 module.exports = nextConfig;
-
-
-
-

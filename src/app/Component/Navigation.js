@@ -31,7 +31,7 @@ const Navigation = () => {
       <div className="container">
         <Link href="/" passHref>
           <div className="navbar-brand">
-            <Image
+            <img
               src="https://www.farmmodules.tech/wp-content/uploads/2021/09/cropped-FMlogo.png"
               alt=""
               className="h-10 mr-2"
