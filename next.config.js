@@ -11,7 +11,7 @@ const nextConfig = {
   // Configure images domain
     // Configure images domain
     images: {
-      
+
     },
   css: ['@styles/main.css'],
 };
