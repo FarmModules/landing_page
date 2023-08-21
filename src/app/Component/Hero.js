@@ -42,7 +42,7 @@ const Hero = () => {
                 alt="Carousel Image"
                 width="100%"
                 height="100vh"
-
+              />
             </div>
             <Carousel.Caption
               className={`${styles.caption} ${styles.responsiveCaption}`}
