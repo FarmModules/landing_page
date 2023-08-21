@@ -108,7 +108,7 @@ const FarmModuleInput = () => {
             </div>
             <div className="mergeRow dojoDndItem mergeRow-textarea p-4">
               <label htmlFor="MERGE4" className="p-2">
-                Message: 
+                Message:
               </label>
               <textarea
                 name="MERGE4"
@@ -135,4 +135,3 @@ const FarmModuleInput = () => {
 };
 
 export default FarmModuleInput;
-
