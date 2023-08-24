@@ -70,7 +70,7 @@ const Team = () => {
         
         {/* Peter Pribylina */}
         <div className="flex flex-col items-center">
-          <Link href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/">
+          <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
             <img
               src="/1599073822754.jpeg"
               alt=""
