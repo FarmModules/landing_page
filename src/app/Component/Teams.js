@@ -72,16 +72,16 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/">
             <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2022/01/71179342_3323728047639090_2381459052375834624_n1-480x300.jpg"
+              src="/1599073822754.jpeg"
               alt=""
-              width="540"
-              height="200"
+              width="270"
+              height="100"
               
             />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/">
+              <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
               Aseta Shadrach
               </Link>
             </h5>
