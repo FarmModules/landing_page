@@ -1,164 +1,133 @@
 import Link from 'next/link';
-import Image from 'next/image';
-import aronImage from '../../../public/WhatsApp_1_.jpg';
+
 const Team = () => {
   return (
-    <div className="container flex flex-col items-center p-8" id="Team">
-      <div className="section-title-area">
-        <h2 className="section-title">Team</h2>
-      </div>
-      <div className="team-members grid grid-cols-3 gap-4">
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/martin-kubajda/"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
-                alt="Martin Kubajda, CEO"
-                width="400"
-                height="300"
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link href="https://www.linkedin.com/in/martin-kubajda/" style={{ textDecoration: "none" }} className="text-gray-500">
+    <div id="Team" className="container flex flex-col items-center">
+      <h2 className="text-2xl text-center font-semibold mb-4">Team</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-8 w-90">
+        {/* Martin Kubajda */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/martin-kubajda/">
+            <img
+              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
+              alt="Martin Kubajda, CEO"
+              width="470"
+              height="580"
+             
+            />
+          </Link>
+          <div className="mt-4 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/martin-kubajda/">
                 Martin Kubajda, CEO
               </Link>
             </h5>
-            <span className="member-position">Product, vision, strategy</span>
+            <span>Product, vision, strategy</span>
           </div>
         </div>
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/filip-fajkus-a56295176/"
-              style={{ textDecoration: "none" }} className="text-gray-500"
-            >
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
-                alt=""
-                width="381"
-                height="163"
-                className='p-8'
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link
-                href="https://www.linkedin.com/in/filip-fajkus-a56295176/"
-                style={{ textDecoration: "none" }} className="text-gray-500"
-              >
+        
+        {/* Filip Fajkus */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
+            <img
+              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
+              alt=""
+              width="350"
+              height="80"
+              
+            />
+          </Link>
+          <div className="mt-4 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
                 Filip Fajkus, COO
               </Link>
             </h5>
-            <span className="member-position">sales and operations</span>
+            <span>sales and operations</span>
           </div>
         </div>
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/jirka-borovec/"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2021/11/jirka-367x300.jpg"
-                alt=""
-                width="367"
-                height="300"
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link href="https://www.linkedin.com/in/jirka-borovec/" style={{ textDecoration: "none" }} className="text-gray-500">
+        
+        {/* Jiri Borovec */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/jirka-borovec/">
+            <img
+              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/jirka-367x300.jpg"
+              alt=""
+              width="360"
+              height="200"
+              
+            />
+          </Link>
+          <div className="mt-4 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/jirka-borovec/">
                 Jiri Borovec, Chief AI Scientist
               </Link>
             </h5>
-            <span className="member-position">
-              machine learning, computer vision
-            </span>
+            <span>machine learning, computer vision</span>
           </div>
         </div>
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2022/01/71179342_3323728047639090_2381459052375834624_n1-480x300.jpg"
-                alt=""
-                width="480"
-                height="300"
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link
-                href="https://www.linkedin.com/in/peter-pribylina-0a1b23bb/"
-                style={{ textDecoration: "none" }} className="text-gray-500"
-              >
-                Peter Pribylina, CEO - Slovakia
+        
+        {/* Peter Pribylina */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
+            <img
+              src="/1599073822754.jpeg"
+              alt=""
+              width="270"
+              height="100"
+              
+            />
+          </Link>
+          <div className="mt-2 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
+              Aseta Shadrach
               </Link>
             </h5>
-            <span className="member-position">Product, sales, community</span>
+            <span>Back-end Engineer , Data Engineer</span>
           </div>
         </div>
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/aron-abraham/"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src="/WhatsApp_1_.jpg"
-                alt=""
-                width="350"
-                height="300"
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link
-                href="https://www.linkedin.com/in/aron-abraham/"
-                style={{ textDecoration: "none" }} className="text-gray-500"
-              >
+        
+        {/* Aron Abraham */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/aron-abraham/">
+            <img
+              src="/WhatsApp_1_.jpg"
+              alt=""
+              width="360"
+              height="200"
+              
+            />
+          </Link>
+          <div className="mt-2 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/aron-abraham/">
                 Aron Abraham
               </Link>
             </h5>
-            <span className="member-position">Front-end developer</span>
+            <span>Front-end developer</span>
           </div>
         </div>
-        <div className="team-member wow slideInUp">
-          <div className="member-thumb">
-            <Link
-              href="https://www.linkedin.com/in/marek-otypka/"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2022/07/175563858_10208346844385147_8622580602411343963_n-e1661945890827-420x300.jpg"
-                alt=""
-                width="370"
-                height="200"
-              />
-            </Link>
-          </div>
-          <div className="member-info">
-            <h5 className="member-name">
-              <Link
-                href="https://www.linkedin.com/in/marek-otypka/"
-                style={{ textDecoration: "none" }} className="text-gray-500"
-              >
+        
+        {/* Marek Otýpka */}
+        <div className="flex flex-col items-center">
+          <Link href="https://www.linkedin.com/in/marek-otypka/">
+            <img
+              src="https://www.farmmodules.tech/wp-content/uploads/2022/07/175563858_10208346844385147_8622580602411343963_n-e1661945890827-420x300.jpg"
+              alt=""
+              width="370"
+              height="200"
+              
+            />
+          </Link>
+          <div className="mt-2 text-center">
+            <h5 className="font-semibold">
+              <Link href="https://www.linkedin.com/in/marek-otypka/">
                 Marek Otýpka, CBDO
               </Link>
             </h5>
-            <span className="member-position">Business development, sales</span>
+            <span>Business development, sales</span>
           </div>
         </div>
       </div>
