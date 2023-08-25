@@ -1,10 +1,9 @@
-import Image from "next/image";
 import 'tailwindcss/tailwind.css';
 
 const About = () => {
   return (
     <div className="section-title-area p-8" id="About">
-      <h2 className="section-title text-center">About</h2>
+      <h2 className="section-title text-center text-3xl">About</h2>
       <div className="section-desc flex flex-col items-center">
         <div className="text-center">
           <div>

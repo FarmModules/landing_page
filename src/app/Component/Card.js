@@ -1,142 +1,124 @@
-import 'tailwindcss/tailwind.css';
+import "tailwindcss/tailwind.css";
 
 const Card = () => {
   return (
     <div id="Solution">
-      <div className="flex flex-col items-center p-8">
-        <h2 className="text-center">Solutions</h2>
+      <div className="text-center p-4">
+        <h2 className="text-3xl p-2">Solutions</h2>
         <div className="flex flex-wrap justify-center gap-10">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
-            <div className="feature-item">
-              <div className="feature-media">
-                <span className="icon-image">
-                  <img
-                    src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
-                    alt="FarmModules.tech AQP Towers system"
-                    width="1532"
-                    height="436"
-                  />
-                </span>
+            <div className="p-4">
+              <img
+                src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
+                alt="FarmModules.tech AQP Towers system"
+                width="1672"
+                height="436"
+              />
+            </div>
+            <h2 className="text-center p-4 text-2xl">AQP Towers</h2>
+            <div className="text-left">
+              <h6 className="text-xl">
+                Aquaponic farm for your home, restaurant or school
+              </h6>
+              <div className="flex">
+                ✔️
+                <p className="text-justifyn pl-2">
+                  Up to <strong>80 herbs</strong>, strawberries or salads per{" "}
+                  <strong>1 square meter</strong>
+                </p>
               </div>
-              <h4 className="text-center">AQP Towers</h4>
-              <div className="feature-item-content">
-                <p>Aquaponic farm for your home, restaurant or school</p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ Up to <strong>80 herbs</strong>, strawberries or salads
-                    per <strong>1 square meter</strong>{" "}
-                  </span>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  Always <strong>fresh</strong>, in{" "}
+                  <strong>organic quality</strong>, at home
                 </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ Always <strong>fresh</strong>, in{" "}
-                    <strong>organic quality</strong>, at home{" "}
-                  </span>
-                </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ <strong>Easy maintenance</strong>{" "}
-                  </span>
-                </p>
-                <p>
-                  <span> </span>
+              </div>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  <strong>Easy maintenance</strong>
                 </p>
               </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
-            <div className="feature-item">
-              <div className="feature-media">
-                <span className="icon-image">
-                  <img
-                    src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
-                    alt=""
-                    width="1432"
-                    height="236"
-                  />
-                </span>
+            <div className="p-2">
+              <img
+                src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
+                alt=""
+                width="1432"
+                height="236"
+              />
+            </div>
+            <h2 className="text-center p-4 text-2xl">
+              Aquaponics Intelligence
+            </h2>
+            <div>
+              <h6 className="text-xl">IoT solution for Aquaponic Farmers</h6>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  Thanks to the <strong>camera and sensors</strong>, you can{" "}
+                  <strong>check the health of your farm anywhere.</strong>
+                </p>
               </div>
-              <h4 className="text-center">Aquaponics Intelligence</h4>
-              <div className="feature-item-content">
-                <p>
-                  IoT <span> solution for Aquaponic Farmers </span>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  With <strong>automation</strong>, we allow you to{" "}
+                  <strong>
+                    remotely control lights, pH +/- solutions, fish feeders and
+                    other
+                  </strong>{" "}
+                  equipment that your farm contains.
                 </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ Thanks to the <strong>camera and sensors</strong>, you
-                    can <strong>check the health of your farm anywhere.</strong>{" "}
-                  </span>
-                </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ With <strong>automation</strong>, we allow you to{" "}
-                    <strong>
-                      remotely control lights, pH +/- solutions, fish feeders
-                      and other
-                    </strong>{" "}
-                    equipment that your farm contains.{" "}
-                  </span>
-                </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ In case of impending complications,{" "}
-                    <strong>
-                      the application will notify you by email or phone
-                    </strong>{" "}
-                  </span>
+              </div>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  In case of impending complications,{" "}
+                  <strong>
+                    the application will notify you by email or phone
+                  </strong>
                 </p>
               </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
-            <div className="feature-item">
-              <div className="feature-media">
-                <span className="icon-image">
-                  <img
-                    src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
-                    alt="Turn-key Aquaponics Towers Farm"
-                    width="1432"
-                    height="236"
-                  />
-                </span>
+            <div className="p-2">
+              <img
+                src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
+                alt="Turn-key Aquaponics Towers Farm"
+                width="1432"
+                height="236"
+              />
+            </div>
+            <h2 className="text-center p-4 text-2xl">Commercial Farm</h2>
+            <div>
+              <h6 className="text-xl">Turnkey aquaponic farm solutions</h6>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  Our team is engaged in building, operating and distributing
+                  products from AQP farms. As an investor, you have a
+                </p>
               </div>
-              <h4 className="text-center">Commercial Farm</h4>
-              <div className="feature-item-content">
-                <p>
-                  <span> Turnkey aquaponic farm solutions </span>
+              <div className="flex">
+                ✔️{" "}
+                <p className="text-justify pl-2">
+                  <strong>
+                    Stable, organic and high quality cultivation all year round
+                  </strong>
+                  , thanks to aquaponics and our IoT platform Aquaponics
+                  Intelligence ..
                 </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ Our team is engaged in building, operating and
-                    distributing products from AQP farms. As an investor, you
-                    have a{" "}
-                  </span>
-                </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️{" "}
-                    <strong>
-                      Stable, organic and high quality cultivation all year
-                      round
-                    </strong>
-                    , thanks to aquaponics and our IoT platform Aquaponics
-                    Intelligence ..{" "}
-                  </span>
-                </p>
-                <p>
-                  <span>
-                    {" "}
-                    ✔️ <strong>Return on investment is 2 to 5 years</strong>,
-                    depending on crops and location{" "}
-                  </span>
+              </div>
+              <div className="flex">
+                ✔️
+                <p className="text-justify pl-2">
+                  <strong>Return on investment is 2 to 5 years</strong>,
+                  depending on crops and location
                 </p>
               </div>
             </div>
