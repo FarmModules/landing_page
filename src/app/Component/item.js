@@ -2,7 +2,7 @@ const items = {
   bootstrap: [
     {
       id: 1,
-      title: "Crops automation",
+      title: "Crops Automation",
       imageUrl: "/2_13-Photo.jpg",
     },
     {

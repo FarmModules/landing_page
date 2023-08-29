@@ -31,8 +31,8 @@ const FarmModuleInput = () => {
   return (
     <div className="wrapper flex flex-col justify-center items-center" id="templateContainer">
       <div className="masthead">
-        <Image
-          src="https://mcusercontent.com/b05e94f9647da65b3c325161c/images/24941f77-aa82-39ea-582c-682a2ecb4ce5.png"
+        <img
+          src="/icon_logo.png"
           alt=""
           border="0"
           style={{
@@ -108,7 +108,7 @@ const FarmModuleInput = () => {
             </div>
             <div className="mergeRow dojoDndItem mergeRow-textarea p-4">
               <label htmlFor="MERGE4" className="p-2">
-                Message: 
+                Message:
               </label>
               <textarea
                 name="MERGE4"
@@ -135,4 +135,3 @@ const FarmModuleInput = () => {
 };
 
 export default FarmModuleInput;
-

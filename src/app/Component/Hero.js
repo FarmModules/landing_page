@@ -36,7 +36,6 @@ const Hero = () => {
         {bootstrap.map((item) => (
           <Carousel.Item key={item.id} className={styles.itemP} interval={2000}>
             <div className={styles.backgroundImage}>
-
               <img
                 src={item.imageUrl}
                 alt="Carousel Image"
@@ -76,7 +75,7 @@ const Hero = () => {
                       className={`btn btn-lg border-white rounded bg-transparent ${styles.responsiveButton}`}
                       style={buttonStyle}
                     >
-                      GET STARTED
+                      Find Out More
                     </button>
                   </Link>
                 </div>

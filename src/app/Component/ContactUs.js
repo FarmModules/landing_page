@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useState } from "react";
 import styles from "../../../Bootstrap.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,6 +7,12 @@ import FarmModuleInput from "./FarmModuleInput";
 
 const ContactUs = () => {
   const [showModal, setShowModal] = useState(false);
+
+  // Change the button from red to green
+  const buttonStyle = {
+    backgroundColor: "green",
+    color: "white",
+  };
 
   const openModal = () => {
     setShowModal(true);
@@ -29,7 +35,11 @@ const ContactUs = () => {
             <div className="w-full sm:w-1/2 px-4">
               <h3 className="text-center">Join our Aquaponics Revolution</h3>
               <p className="text-center">
-                <button onClick={openModal} className={styles.responsiveButton}>
+                <button
+                  className={`btn btn-lg ${styles.responsiveButton}`}
+                  style={buttonStyle}
+                  onClick={openModal}
+                >
                   GET FREE CONSULTATION
                 </button>
               </p>
