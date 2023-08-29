@@ -13,7 +13,7 @@ const Team = () => {
               alt="Martin Kubajda, CEO"
               width="470"
               height="580"
-             
+
             />
           </Link>
           <div className="mt-4 text-center">
@@ -25,7 +25,7 @@ const Team = () => {
             <span>Product, vision, strategy</span>
           </div>
         </div>
-        
+
         {/* Filip Fajkus */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
@@ -34,7 +34,7 @@ const Team = () => {
               alt=""
               width="350"
               height="80"
-              
+
             />
           </Link>
           <div className="mt-4 text-center">
@@ -46,7 +46,7 @@ const Team = () => {
             <span>sales and operations</span>
           </div>
         </div>
-        
+
         {/* Jiri Borovec */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/jirka-borovec/">
@@ -55,7 +55,7 @@ const Team = () => {
               alt=""
               width="360"
               height="200"
-              
+
             />
           </Link>
           <div className="mt-4 text-center">
@@ -67,7 +67,7 @@ const Team = () => {
             <span>machine learning, computer vision</span>
           </div>
         </div>
-        
+
         {/* Peter Pribylina */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
@@ -76,7 +76,7 @@ const Team = () => {
               alt=""
               width="270"
               height="100"
-              
+
             />
           </Link>
           <div className="mt-2 text-center">
@@ -88,7 +88,7 @@ const Team = () => {
             <span>Back-end Engineer , Data Engineer</span>
           </div>
         </div>
-        
+
         {/* Aron Abraham */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aron-abraham/">
@@ -97,7 +97,7 @@ const Team = () => {
               alt=""
               width="360"
               height="200"
-              
+
             />
           </Link>
           <div className="mt-2 text-center">
@@ -109,7 +109,7 @@ const Team = () => {
             <span>Front-end developer</span>
           </div>
         </div>
-        
+
         {/* Marek Otýpka */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/marek-otypka/">
@@ -118,7 +118,7 @@ const Team = () => {
               alt=""
               width="370"
               height="200"
-              
+
             />
           </Link>
           <div className="mt-2 text-center">
