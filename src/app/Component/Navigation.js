@@ -23,7 +23,7 @@ const Navigation = () => {
       // Close the navigation menu when a link is clicked
       const navbarCollapse = document.querySelector('.navbar-collapse');
       navbarCollapse.classList.remove('show');
-    }    
+    }
   };
 
   return (
