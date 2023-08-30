@@ -11,8 +11,8 @@ const Team = () => {
             <img
               src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
               alt="Martin Kubajda, CEO"
-              width="470"
-              height="580"
+              width="390"
+              height="90"
 
             />
           </Link>
