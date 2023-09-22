@@ -34,7 +34,7 @@ const ContactUs = () => {
           <div className="flex flex-wrap justify-center items-center">
             <div className="w-full sm:w-1/2 px-4">
               <h3 className="text-center">Join our Aquaponics Revolution</h3>
-              <p className="text-center">
+              <p className="text-center p-8">
                 <button
                   className={`btn btn-lg ${styles.responsiveButton}`}
                   style={buttonStyle}
@@ -43,9 +43,7 @@ const ContactUs = () => {
                   GET FREE CONSULTATION
                 </button>
               </p>
-              <br />
-              <br />
-              <div className="address-box fle">
+              <div className="address-box">
                 <h3 className="text-center">FarmModules.tech s.r.o.</h3>
                 <div className="address-contact">
                   <span className="fa-stack">

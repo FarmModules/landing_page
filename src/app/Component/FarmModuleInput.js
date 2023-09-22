@@ -1,7 +1,18 @@
 "use client";
-import 'tailwindcss/tailwind.css';
-import Image from "next/image";
+import { useEffect } from "react";
 import { useState } from "react";
+
+const initializeAppointlet = async () => {
+  if (typeof window !== "undefined") {
+    const appointletModule = await import("@appointlet/appointlet.js");
+
+    const AppointletSDK = appointletModule.default;
+    return new AppointletSDK({
+      account: "YOUR_APPOINTLET_ACCOUNT_ID", // Replace with your actual Appointlet account ID
+    });
+  }
+  return null;
+};
 
 const FarmModuleInput = () => {
   const [email, setEmail] = useState("");
@@ -9,19 +20,35 @@ const FarmModuleInput = () => {
   const [lastName, setLastName] = useState("");
   const [message, setMessage] = useState("");
 
+  useEffect(() => {
+    initializeAppointlet().then((appointletInstance) => {
+      if (appointletInstance) {
+        const openAppointlet = () => {
+          appointletInstance.show();
+        };
+
+        const buttonElement = document.getElementById("appointlet-button");
+        if (buttonElement) {
+          buttonElement.addEventListener("click", openAppointlet);
+        }
+
+        return () => {
+          if (buttonElement) {
+            buttonElement.removeEventListener("click", openAppointlet);
+          }
+        };
+      }
+    });
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Perform validation logic here
     if (!email || firstName.length < 2 || lastName.length < 2) {
       alert("Please fill in all required fields with valid values.");
       return;
     }
 
-    // Perform additional validation or form submission
-    // ...
-
-    // Reset the form
     setEmail("");
     setFirstName("");
     setLastName("");
