@@ -8,7 +8,7 @@ const initializeAppointlet = async () => {
 
     const AppointletSDK = appointletModule.default;
     return new AppointletSDK({
-      account: "YOUR_APPOINTLET_ACCOUNT_ID", // Replace with your actual Appointlet account ID
+      account: "38559", // Replace with your actual Appointlet account ID
     });
   }
   return null;
