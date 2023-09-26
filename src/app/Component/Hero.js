@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import styles from "../../../Bootstrap.module.css";
 import FarmModuleInput from "./FarmModuleInput";
 import Link from "next/link";
-import Image from "next/image.js";
 
 const Hero = () => {
   const { bootstrap } = items;
@@ -16,7 +15,6 @@ const Hero = () => {
     setIndex(selectedIndex);
   };
 
-  // Change the button from red to green
   const buttonStyle = {
     backgroundColor: "green",
     color: "white",
@@ -85,9 +83,12 @@ const Hero = () => {
         ))}
       </Carousel>
 
-      <Modal show={showModal} onHide={closeModal} centered>
-        <Modal.Header closeButton>
+      <Modal show={showModal} centered>
+        <Modal.Header>
           <Modal.Title>Free Consultation</Modal.Title>
+          <button className="close" onClick={closeModal}>
+            X
+          </button>
         </Modal.Header>
         <Modal.Body>
           <FarmModuleInput />

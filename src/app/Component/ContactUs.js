@@ -8,7 +8,6 @@ import FarmModuleInput from "./FarmModuleInput";
 const ContactUs = () => {
   const [showModal, setShowModal] = useState(false);
 
-  // Change the button from red to green
   const buttonStyle = {
     backgroundColor: "green",
     color: "white",
