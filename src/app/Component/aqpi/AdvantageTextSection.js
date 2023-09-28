@@ -1,4 +1,3 @@
-
 const AdvantageTextSection = () => {
   return (
     <div className="flex justify-center">
@@ -21,5 +20,5 @@ const AdvantageTextSection = () => {
       </div>
     </div>
   );
-}
+};
 export default AdvantageTextSection;

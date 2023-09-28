@@ -1,10 +1,9 @@
-'use client';
+"use client";
 
 import TitleSection from "./TitleSection";
 import DeviceImage from "./DeviceImage";
 import NoticeTextSection from "./NoticeTextSection";
 const AqpiWrapper = () => {
-
   return (
     <div className="w-[80%] mx-[10%]">
       <TitleSection />
@@ -12,6 +11,6 @@ const AqpiWrapper = () => {
       <NoticeTextSection />
     </div>
   );
-}
+};
 
 export default AqpiWrapper;

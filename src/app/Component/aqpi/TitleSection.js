@@ -1,4 +1,3 @@
-
 const TitleSection = () => {
   return (
     <div className="">
@@ -8,5 +7,5 @@ const TitleSection = () => {
       </div>
     </div>
   );
-}
+};
 export default TitleSection;
