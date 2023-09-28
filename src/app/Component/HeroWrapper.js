@@ -5,7 +5,6 @@ import Team from './Teams';
 import ContactUs from './ContactUs';
 
 const HeroWrapper = () => {
-  // Marking the HeroWrapper component as a Client Component
   return (
     <>
       <Hero />
