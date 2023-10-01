@@ -17,9 +17,9 @@ const Card = () => {
             </div>
             <h2 className="text-center p-4 text-2xl">AQP Towers</h2>
             <div className="text-left">
-              <h6 className="text-xl">
+              <h4 className="text-xl">
                 Aquaponic farm for your home, restaurant or school
-              </h6>
+              </h4>
               <div className="flex">
                 ✔️
                 <p className="text-justifyn pl-2">
@@ -55,7 +55,7 @@ const Card = () => {
               Aquaponics Intelligence
             </h2>
             <div>
-              <h6 className="text-xl">IoT solution for Aquaponic Farmers</h6>
+              <h4 className="text-xl">IoT solution for Aquaponic Farmers</h4>
               <div className="flex">
                 ✔️
                 <p className="text-justify pl-2">
@@ -96,7 +96,7 @@ const Card = () => {
             </div>
             <h2 className="text-center p-4 text-2xl">Commercial Farm</h2>
             <div>
-              <h6 className="text-xl">Turnkey aquaponic farm solutions</h6>
+              <h4 className="text-xl">Turnkey aquaponic farm solutions</h4>
               <div className="flex">
                 ✔️
                 <p className="text-justify pl-2">
