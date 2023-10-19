@@ -9,7 +9,6 @@ on:
   push:
     branches: ["main"]
   pull_request: {}
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -25,6 +24,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}-${{ github.head_ref }}
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   # Build job
   build-nextjs:
@@ -32,23 +35,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Detect package manager
-        run: |
-          if [ -f "${{ github.workspace }}/yarn.lock" ]; then
-            echo "MANAGER=yarn" >> $GITHUB_ENV
-            echo "COMMAND=install" >> $GITHUB_ENV
-            echo "RUNNER=yarn" >> $GITHUB_ENV
-            exit 0
-          elif [ -f "${{ github.workspace }}/package.json" ]; then
-            echo "MANAGER=npm" >> $GITHUB_ENV
-            echo "COMMAND=ci" >> $GITHUB_ENV
-            echo "RUNNER=npx --no-install" >> $GITHUB_ENV
-            exit 0
-          else
-            echo "Unable to determine package manager"
-            exit 1
-          fi
-        shell: bash
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -71,20 +57,20 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
 
       - name: Install dependencies
-        run: ${{ env.MANAGER }} ${{ env.COMMAND }}
+        run: npm install
       - name: Build with Next.js
-        run: ${{ env.RUNNER }} next build
-      - name: Static HTML export with Next.js
-        run: ${{ env.RUNNER }} next export
+        run: npm run build
+      #- name: Static HTML export with Next.js
+      #  run: ${{ env.RUNNER }} next export
       - name: Upload artifact
-        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+        if: ${{ github.event_name != 'pull_request'}}
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./out
 
   # Deployment job
   deploy:
-    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.event_name != 'pull_request' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
