@@ -17,7 +17,8 @@ To run the website locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/FarmModules/landing_page.git`
 1. Navigate to the project directory: `cd landing-page`
 1. Install the dependencies: `npm install`
-1. Start the development server: `npm start`
+1. Build the pages: `npm run build`
+1. Start the server: `npm start`
 1. Open your browser and visit: `http://localhost:3000`
 
 ## License
