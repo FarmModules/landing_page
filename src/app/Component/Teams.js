@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 const Team = () => {
   return (
@@ -8,19 +8,11 @@ const Team = () => {
         {/* Martin Kubajda */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/martin-kubajda/">
-            <img
-              src="/photo_Martin-Kubajda.jpeg"
-              alt="Martin Kubajda, CEO"
-              width="390"
-              height="90"
-
-            />
+            <img src="/photo_Martin-Kubajda.jpeg" alt="Martin Kubajda, CEO" width="390" height="90" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/martin-kubajda/">
-                Martin Kubajda, CEO
-              </Link>
+              <Link href="https://www.linkedin.com/in/martin-kubajda/">Martin Kubajda, CEO</Link>
             </h5>
             <span>Product, vision, strategy</span>
           </div>
@@ -29,19 +21,11 @@ const Team = () => {
         {/* Filip Fajkus */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
-            <img
-              src="/photo_Filip-Fajkus.jpeg"
-              alt=""
-              width="350"
-              height="80"
-
-            />
+            <img src="/photo_Filip-Fajkus.jpeg" alt="" width="350" height="80" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
-                Filip Fajkus, COO
-              </Link>
+              <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">Filip Fajkus, COO</Link>
             </h5>
             <span>sales and operations</span>
           </div>
@@ -50,19 +34,11 @@ const Team = () => {
         {/* Jiri Borovec */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/jirka-borovec/">
-            <img
-              src="/photo_Jiri-Borovec.jpeg"
-              alt=""
-              width="360"
-              height="200"
-
-            />
+            <img src="/photo_Jiri-Borovec.jpeg" alt="" width="360" height="200" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/jirka-borovec/">
-                Jiri Borovec, Chief AI Scientist
-              </Link>
+              <Link href="https://www.linkedin.com/in/jirka-borovec/">Jiri Borovec, Chief AI Scientist</Link>
             </h5>
             <span>machine learning, computer vision</span>
           </div>
@@ -71,19 +47,11 @@ const Team = () => {
         {/* Peter Pribylina */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
-            <img
-              src="/photo_Aseta-Shadrach.jpeg"
-              alt=""
-              width="270"
-              height="100"
-
-            />
+            <img src="/photo_Aseta-Shadrach.jpeg" alt="" width="270" height="100" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
-              Aseta Shadrach
-              </Link>
+              <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">Aseta Shadrach</Link>
             </h5>
             <span>Back-end Engineer , Data Engineer</span>
           </div>
@@ -92,19 +60,11 @@ const Team = () => {
         {/* Aron Abraham */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aron-abraham/">
-            <img
-              src="/photo_Aron-Abraham.jpg"
-              alt=""
-              width="360"
-              height="200"
-
-            />
+            <img src="/photo_Aron-Abraham.jpg" alt="" width="360" height="200" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/aron-abraham/">
-                Aron Abraham
-              </Link>
+              <Link href="https://www.linkedin.com/in/aron-abraham/">Aron Abraham</Link>
             </h5>
             <span>Front-end developer</span>
           </div>
@@ -113,19 +73,11 @@ const Team = () => {
         {/* Marek Otýpka */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/marek-otypka/">
-            <img
-              src="/photo_Marek-Otypka.jpeg"
-              alt=""
-              width="370"
-              height="200"
-
-            />
+            <img src="/photo_Marek-Otypka.jpeg" alt="" width="370" height="200" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/marek-otypka/">
-                Marek Otýpka, CBDO
-              </Link>
+              <Link href="https://www.linkedin.com/in/marek-otypka/">Marek Otýpka, CBDO</Link>
             </h5>
             <span>Business development, sales</span>
           </div>
