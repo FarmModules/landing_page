@@ -9,7 +9,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/martin-kubajda/">
             <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
+              src="/photo_Martin-Kubajda.jpeg"
               alt="Martin Kubajda, CEO"
               width="390"
               height="90"
@@ -30,7 +30,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
             <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
+              src="/photo_Filip-Fajkus.jpeg"
               alt=""
               width="350"
               height="80"
@@ -51,7 +51,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/jirka-borovec/">
             <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/jirka-367x300.jpg"
+              src="/photo_Jiri-Borovec.jpeg"
               alt=""
               width="360"
               height="200"
@@ -72,7 +72,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
             <img
-              src="/1599073822754.jpeg"
+              src="/photo_Aseta-Shadrach.jpeg"
               alt=""
               width="270"
               height="100"
@@ -93,7 +93,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aron-abraham/">
             <img
-              src="/WhatsApp_1_.jpg"
+              src="/photo_Aron-Abraham.jpg"
               alt=""
               width="360"
               height="200"
@@ -114,7 +114,7 @@ const Team = () => {
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/marek-otypka/">
             <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2022/07/175563858_10208346844385147_8622580602411343963_n-e1661945890827-420x300.jpg"
+              src="/photo_Marek-Otypka.jpeg"
               alt=""
               width="370"
               height="200"
