@@ -26,19 +26,13 @@ const ContactUs = () => {
       <footer className="bg-gray-200 py-10">
         <div className="container mx-auto" id="Contact">
           <div className="section-title-area">
-            <h2 className="section-title text-center">
-              Let&lsquo;s build the farm of your dreams together
-            </h2>
+            <h2 className="section-title text-center">Let&lsquo;s build the farm of your dreams together</h2>
           </div>
           <div className="flex flex-wrap justify-center items-center">
             <div className="w-full sm:w-1/2 px-4">
               <h3 className="text-center">Join our Aquaponics Revolution</h3>
               <p className="text-center p-8">
-                <button
-                  className={`btn btn-lg ${styles.responsiveButton}`}
-                  style={buttonStyle}
-                  onClick={openModal}
-                >
+                <button className={`btn btn-lg ${styles.responsiveButton}`} style={buttonStyle} onClick={openModal}>
                   GET FREE CONSULTATION
                 </button>
               </p>
@@ -60,9 +54,7 @@ const ContactUs = () => {
                     <i className="fa fa-circle fa-stack-2x"></i>
                     <i className="fa fa-phone fa-stack-1x fa-inverse"></i>
                   </span>
-                  <div className="address-content text-center">
-                    +420 774 588 710
-                  </div>
+                  <div className="address-content text-center">+420 774 588 710</div>
                 </div>
                 <div className="address-contact">
                   <span className="fa-stack">
@@ -70,9 +62,7 @@ const ContactUs = () => {
                     <i className="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
                   </span>
                   <div className="address-content text-center">
-                    <a href="mailto:info@farmmodules.tech">
-                      info@farmmodules.tech
-                    </a>
+                    <a href="mailto:info@farmmodules.tech">info@farmmodules.tech</a>
                   </div>
                 </div>
               </div>

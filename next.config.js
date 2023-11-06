@@ -6,14 +6,12 @@ const nextConfig = {
   // basePath: '/github-pages',
 
   // Enable static HTML export
-  output: 'export',
+  output: "export",
 
   // Configure images domain
-    // Configure images domain
-    images: {
-
-    },
-  css: ['@styles/main.css'],
+  // Configure images domain
+  images: {},
+  css: ["@styles/main.css"],
 };
 
 module.exports = nextConfig;

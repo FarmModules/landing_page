@@ -34,41 +34,18 @@ const Hero = () => {
         {bootstrap.map((item) => (
           <Carousel.Item key={item.id} className={styles.itemP} interval={2000}>
             <div className={styles.backgroundImage}>
-              <img
-                src={item.imageUrl}
-                alt="Carousel Image"
-                width="100%"
-                height="100vh"
-              />
+              <img src={item.imageUrl} alt="Carousel Image" width="100%" height="100vh" />
             </div>
-            <Carousel.Caption
-              className={`${styles.caption} ${styles.responsiveCaption}`}
-            >
-              <div
-                className={`${styles.container} ${styles.responsiveContainer}`}
-              >
-                <h3 className={`${styles.heading} ${styles.responsiveHeading}`}>
-                  For More Accessible
-                </h3>
-                <h4
-                  className={`${styles.subheading} ${styles.responsiveSubheading}`}
-                >
-                  {item.title}
-                </h4>
+            <Carousel.Caption className={`${styles.caption} ${styles.responsiveCaption}`}>
+              <div className={`${styles.container} ${styles.responsiveContainer}`}>
+                <h3 className={`${styles.heading} ${styles.responsiveHeading}`}>For More Accessible</h3>
+                <h4 className={`${styles.subheading} ${styles.responsiveSubheading}`}>{item.title}</h4>
                 <p className="p-4">Aquaponic IoT and turnkey farm solutions</p>
                 <div className="d-flex flex-row gap-5 mx-auto w-100 justify-content-center ">
-                  <button
-                    className={`btn btn-lg ${styles.responsiveButton}`}
-                    style={buttonStyle}
-                    onClick={openModal}
-                  >
+                  <button className={`btn btn-lg ${styles.responsiveButton}`} style={buttonStyle} onClick={openModal}>
                     GET FREE CONSULTATION
                   </button>
-                  <Link
-                    href="#Solution"
-                    passHref
-                    style={{ textDecoration: "none" }}
-                  >
+                  <Link href="#Solution" passHref style={{ textDecoration: "none" }}>
                     <button
                       className={`btn btn-lg border-white rounded bg-transparent ${styles.responsiveButton}`}
                       style={buttonStyle}

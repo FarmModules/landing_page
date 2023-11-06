@@ -1,8 +1,8 @@
-'use client';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { useEffect, useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+"use client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navigation = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -14,15 +14,15 @@ const Navigation = () => {
 
     handleResize(); // Set initial state
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const handleLinkClick = () => {
     if (isMobile) {
       // Close the navigation menu when a link is clicked
-      const navbarCollapse = document.querySelector('.navbar-collapse');
-      navbarCollapse.classList.remove('show');
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+      navbarCollapse.classList.remove("show");
     }
   };
 
@@ -54,31 +54,31 @@ const Navigation = () => {
           </button>
         ) : null}
 
-        <div className={isMobile ? 'navbar-collapse collapse' : 'navbar-collapse'} id="navbarSupportedContent">
+        <div className={isMobile ? "navbar-collapse collapse" : "navbar-collapse"} id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto align-items-center gap-8">
             <li className="nav-item">
-              <Link href="#Solution" passHref style={{ textDecoration: 'none' }}>
+              <Link href="#Solution" passHref style={{ textDecoration: "none" }}>
                 <div className="nav-link" onClick={handleLinkClick}>
                   Solutions
                 </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#About" passHref style={{ textDecoration: 'none' }}>
+              <Link href="#About" passHref style={{ textDecoration: "none" }}>
                 <div className="nav-link" onClick={handleLinkClick}>
                   About
                 </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#Team" passHref style={{ textDecoration: 'none' }}>
+              <Link href="#Team" passHref style={{ textDecoration: "none" }}>
                 <div className="nav-link" onClick={handleLinkClick}>
                   Team
                 </div>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#Contact" passHref style={{ textDecoration: 'none' }}>
+              <Link href="#Contact" passHref style={{ textDecoration: "none" }}>
                 <div className="nav-link" onClick={handleLinkClick}>
                   Contact
                 </div>
