@@ -1,1 +1,1 @@
-declare module '@appointlet/appointlet.js';
+declare module "@appointlet/appointlet.js";

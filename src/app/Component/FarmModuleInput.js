@@ -77,11 +77,7 @@ const FarmModuleInput = () => {
         />
       </div>
       <div id="templateBody" className="bodyContent rounded-6">
-        <form
-          onSubmit={handleSubmit}
-          action="https://tech.us5.list-manage.com/subscribe/post"
-          method="POST"
-        >
+        <form onSubmit={handleSubmit} action="https://tech.us5.list-manage.com/subscribe/post" method="POST">
           <div id="mergeTable" className="p-8">
             <div className="mergeRow dojoDndItem mergeRow-email flex items-center mb-4">
               <label htmlFor="MERGE0" className="mr-2 p-4">
@@ -96,8 +92,7 @@ const FarmModuleInput = () => {
                 size="25"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className={`border ${!email ? "border-red-500" : "border-gray-300"
-                  } rounded p-2 w-full md:w-5/4`}
+                className={`border ${!email ? "border-red-500" : "border-gray-300"} rounded p-2 w-full md:w-5/4`}
                 required
               />
             </div>
@@ -112,8 +107,9 @@ const FarmModuleInput = () => {
                 size="25"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
-                className={`border ${firstName.length < 2 ? "border-red-500" : "border-gray-300"
-                  } rounded p-2 w-full md:w-5/4`}
+                className={`border ${
+                  firstName.length < 2 ? "border-red-500" : "border-gray-300"
+                } rounded p-2 w-full md:w-5/4`}
                 required
               />
             </div>
@@ -128,8 +124,9 @@ const FarmModuleInput = () => {
                 size="25"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
-                className={`border ${lastName.length < 2 ? "border-red-500" : "border-gray-300"
-                  } rounded p-2 w-full md:w-7/4`}
+                className={`border ${
+                  lastName.length < 2 ? "border-red-500" : "border-gray-300"
+                } rounded p-2 w-full md:w-7/4`}
                 required
               />
             </div>
