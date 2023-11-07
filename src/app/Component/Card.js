@@ -8,12 +8,7 @@ const Card = () => {
         <div className="flex flex-wrap justify-center gap-10">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
             <div className="p-4">
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2021/11/towery.png"
-                alt="FarmModules.tech AQP Towers system"
-                width="1672"
-                height="436"
-              />
+              <img src="/towers2.jpg" alt="FarmModules.tech AQP Towers system" width="1672" height="436" />
             </div>
             <h2 className="text-center p-4 text-2xl">AQP Towers</h2>
             <div className="text-left">
@@ -40,12 +35,7 @@ const Card = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
             <div className="p-2">
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2022/02/product-page-2.png"
-                alt=""
-                width="1432"
-                height="236"
-              />
+              <img src="/aquaponics_intelligence.png" alt="" width="1432" height="236" />
             </div>
             <h2 className="text-center p-4 text-2xl">Aquaponics Intelligence</h2>
             <div>
@@ -75,12 +65,7 @@ const Card = () => {
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 p-4">
             <div className="p-2">
-              <img
-                src="https://www.farmmodules.tech/wp-content/uploads/2022/02/AAAAAAAAAAAAAAAAAA.jpg"
-                alt="Turn-key Aquaponics Towers Farm"
-                width="1432"
-                height="236"
-              />
+              <img src="/farma-1.jpeg" alt="Turn-key Aquaponics Towers Farm" width="1432" height="236" />
             </div>
             <h2 className="text-center p-4 text-2xl">Commercial Farm</h2>
             <div>
