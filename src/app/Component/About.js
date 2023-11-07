@@ -26,12 +26,7 @@ const About = () => {
         <div>
           <h2 className="text-center">What is Aquaponics?</h2>
           <p>
-            <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2022/02/272614969_277386991154127_1490115604891205562_n-1.png"
-              alt="Aquaponics Cycle Concept"
-              width={507}
-              height={472}
-            />
+            <img src="/what_is_aquaponic.png" alt="Aquaponics Cycle Concept" width={507} height={472} />
           </p>
         </div>
         <div className="text-center">

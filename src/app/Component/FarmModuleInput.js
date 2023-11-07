@@ -59,7 +59,7 @@ const FarmModuleInput = () => {
     <div className="wrapper flex flex-col justify-center items-center" id="templateContainer">
       <div className="masthead">
         <img
-          src="/icon_logo.png"
+          src="/icon_logo-text.png"
           alt=""
           border="0"
           style={{

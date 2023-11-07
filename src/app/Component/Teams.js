@@ -8,12 +8,7 @@ const Team = () => {
         {/* Martin Kubajda */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/martin-kubajda/">
-            <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1618472157083-400x300.jpg"
-              alt="Martin Kubajda, CEO"
-              width="390"
-              height="90"
-            />
+            <img src="/photo_Martin-Kubajda.jpeg" alt="Martin Kubajda, CEO" width="390" height="90" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
@@ -26,12 +21,7 @@ const Team = () => {
         {/* Filip Fajkus */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/filip-fajkus-a56295176/">
-            <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/1555084982219-2.jpg"
-              alt=""
-              width="350"
-              height="80"
-            />
+            <img src="/photo_Filip-Fajkus.jpeg" alt="" width="350" height="80" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
@@ -44,12 +34,7 @@ const Team = () => {
         {/* Jiri Borovec */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/jirka-borovec/">
-            <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2021/11/jirka-367x300.jpg"
-              alt=""
-              width="360"
-              height="200"
-            />
+            <img src="/photo_Jiri-Borovec.jpeg" alt="" width="360" height="200" />
           </Link>
           <div className="mt-4 text-center">
             <h5 className="font-semibold">
@@ -62,7 +47,7 @@ const Team = () => {
         {/* Peter Pribylina */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
-            <img src="/1599073822754.jpeg" alt="" width="270" height="100" />
+            <img src="/photo_Aseta-Shadrach.jpeg" alt="" width="270" height="100" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
@@ -75,7 +60,7 @@ const Team = () => {
         {/* Aron Abraham */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/aron-abraham/">
-            <img src="/WhatsApp_1_.jpg" alt="" width="360" height="200" />
+            <img src="/photo_Aron-Abraham.jpg" alt="" width="360" height="200" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">
@@ -88,12 +73,7 @@ const Team = () => {
         {/* Marek Otýpka */}
         <div className="flex flex-col items-center">
           <Link href="https://www.linkedin.com/in/marek-otypka/">
-            <img
-              src="https://www.farmmodules.tech/wp-content/uploads/2022/07/175563858_10208346844385147_8622580602411343963_n-e1661945890827-420x300.jpg"
-              alt=""
-              width="370"
-              height="200"
-            />
+            <img src="/photo_Marek-Otypka.jpeg" alt="" width="370" height="200" />
           </Link>
           <div className="mt-2 text-center">
             <h5 className="font-semibold">

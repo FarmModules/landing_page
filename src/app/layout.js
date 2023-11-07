@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/icon_logo-1.jpg" /> {/* Update the path to your icon */}
+        <link rel="icon" href="/icon_logo.jpg" /> {/* Update the path to your icon */}
       </head>
       <body className={inter.className}>{children}</body>
     </html>
