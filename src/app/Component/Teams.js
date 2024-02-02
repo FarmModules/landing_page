@@ -31,44 +31,42 @@ const Team = () => {
           </div>
         </div>
 
-        {/* Jiri Borovec */}
-        <div className="flex flex-col items-center">
-          <Link href="https://www.linkedin.com/in/jirka-borovec/">
-            <img src="/photo_Jiri-Borovec.jpeg" alt="" width="360" height="200" />
-          </Link>
-          <div className="mt-4 text-center">
-            <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/jirka-borovec/">Jiri Borovec, Chief AI Scientist</Link>
-            </h5>
-            <span>machine learning, computer vision</span>
-          </div>
-        </div>
+        {/*/!* Jiri Borovec *!/*/}
+        {/*<div className="flex flex-col items-center">*/}
+        {/*  <Link href="https://www.linkedin.com/in/jirka-borovec/">*/}
+        {/*    <img src="/photo_Jiri-Borovec.jpeg" alt="" width="360" height="200" />*/}
+        {/*  </Link>*/}
+        {/*  <div className="mt-4 text-center">*/}
+        {/*    <h5 className="font-semibold">*/}
+        {/*      <Link href="https://www.linkedin.com/in/jirka-borovec/">Jiri Borovec, Chief AI Scientist</Link>*/}
+        {/*    </h5>*/}
+        {/*    <span>machine learning, computer vision</span>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
-        {/* Peter Pribylina */}
-        <div className="flex flex-col items-center">
-          <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">
-            <img src="/photo_Aseta-Shadrach.jpeg" alt="" width="270" height="100" />
-          </Link>
-          <div className="mt-2 text-center">
-            <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">Aseta Shadrach</Link>
-            </h5>
-            <span>Back-end Engineer , Data Engineer</span>
-          </div>
-        </div>
+        {/*<div className="flex flex-col items-center">*/}
+        {/*  <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">*/}
+        {/*    <img src="/photo_Aseta-Shadrach.jpeg" alt="" width="270" height="100" />*/}
+        {/*  </Link>*/}
+        {/*  <div className="mt-2 text-center">*/}
+        {/*    <h5 className="font-semibold">*/}
+        {/*      <Link href="https://www.linkedin.com/in/aseta-shadrach-6360b7139/">Aseta Shadrach</Link>*/}
+        {/*    </h5>*/}
+        {/*    <span>Back-end Engineer , Data Engineer</span>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
-        {/* Aron Abraham */}
-        <div className="flex flex-col items-center">
-          <Link href="https://www.linkedin.com/in/aron-abraham/">
-            <img src="/photo_Aron-Abraham.jpg" alt="" width="360" height="200" />
-          </Link>
-          <div className="mt-2 text-center">
-            <h5 className="font-semibold">
-              <Link href="https://www.linkedin.com/in/aron-abraham/">Aron Abraham</Link>
-            </h5>
-            <span>Front-end developer</span>
-          </div>
-        </div>
+        {/*<div className="flex flex-col items-center">*/}
+        {/*  <Link href="https://www.linkedin.com/in/aron-abraham/">*/}
+        {/*    <img src="/photo_Aron-Abraham.jpg" alt="" width="360" height="200" />*/}
+        {/*  </Link>*/}
+        {/*  <div className="mt-2 text-center">*/}
+        {/*    <h5 className="font-semibold">*/}
+        {/*      <Link href="https://www.linkedin.com/in/aron-abraham/">Aron Abraham</Link>*/}
+        {/*    </h5>*/}
+        {/*    <span>Front-end developer</span>*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
         {/* Marek Otýpka */}
         <div className="flex flex-col items-center">
