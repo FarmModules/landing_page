@@ -1,7 +1,7 @@
 name: Code formatting
 
 # see: https://help.github.com/en/actions/reference/events-that-trigger-workflows
-on:  # Trigger the workflow on push or pull request, but only for the main branch
+on: # Trigger the workflow on push or pull request, but only for the main branch
   push:
     branches: [main]
   pull_request: {}
@@ -11,7 +11,6 @@ defaults:
     shell: bash
 
 jobs:
-
   pre-commit-check:
     runs-on: ubuntu-latest
     steps:
@@ -19,11 +18,11 @@ jobs:
         # for private repo - first is the checkout step, which needs to use unlimited fetch depth for pushing
         #with:
         #  fetch-depth: 0
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
 
       - name: set PY
         run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pre-commit
           key: pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}

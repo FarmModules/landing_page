@@ -18,7 +18,7 @@ To run the website locally, follow these steps:
 1. Navigate to the project directory: `cd landing-page`
 1. Install the dependencies: `npm install`
 1. Build the pages: `npm run build`
-1. Start the server: `npm start`
+1. Start the server: `npx serve@latest out`
 1. Open your browser and visit: `http://localhost:3000`
 
 ## License
