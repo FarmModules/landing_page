@@ -174,7 +174,7 @@ const NoticeTextSection = () => {
 
         <div className="mt-[40px] text-[39px]">
           <br />
-          <b>This August</b> you can also can get <b>life-time</b> access to our <b>aquaponics system modelling</b> and <b>fish growth rate spreadsheets as</b>  ⬇️ 👨🏼‍🌾 <span className="text-[#13AE5C] font-bold">FREE BONUS FOR YOU</span> 👩🏽‍🌾 ⬇️
+          <b>Now</b>, you can also can get <b>life-time</b> access to our <b>aquaponics system modelling</b> and <b>fish growth rate spreadsheets as</b>  ⬇️ 👨🏼‍🌾 <span className="text-[#13AE5C] font-bold">FREE BONUS FOR YOU</span> 👩🏽‍🌾 ⬇️
           <br />
           <br />
         </div>
